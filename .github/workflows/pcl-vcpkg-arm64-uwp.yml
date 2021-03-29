@@ -25,4 +25,5 @@ jobs:
           git clone https://github.com/Microsoft/vcpkg
           cd vcpkg
           .\bootstrap-vcpkg.bat
+          .\vcpkg install pcl --triplet arm-uwp
           .\vcpkg install pcl --triplet arm64-uwp
